@@ -21,7 +21,7 @@ function Home() {
         diet,
         type: mealType,
         ingredients,
-        apiKey: 'YOUR_API_KEY'
+        apiKey: '89442fed54a04751bf9ea8d882316a8cEY'
       }
     });
     setRecipes(response.data.results);
