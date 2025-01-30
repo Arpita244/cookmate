@@ -21,10 +21,10 @@ function Home() {
         diet,
         type: mealType,
         ingredients,
-        apiKey: '89442fed54a04751bf9ea8d882316a8cEY'
-      }
+        apiKey: process.env.REACT_APP_API_KEY,}
     });
     setRecipes(response.data.results);
+  
   };
 
   return (
